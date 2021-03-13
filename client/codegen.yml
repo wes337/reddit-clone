@@ -1,0 +1,9 @@
+overwrite: true
+schema: ${API_BASE_URL}
+documents: "src/graphql/**/*.graphql"
+generates:
+  src/generated/graphql.tsx:
+    plugins:
+      - "typescript"
+      - "typescript-operations"
+      - "typescript-urql"

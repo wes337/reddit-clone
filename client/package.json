@@ -1,0 +1,37 @@
+{
+  "name": "reddit-clone-client",
+  "version": "0.1.1",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "gen": "graphql-codegen --config codegen.yml -r dotenv/config"
+  },
+  "dependencies": {
+    "@chakra-ui/icons": "^1.0.0",
+    "@chakra-ui/react": "^1.0.0",
+    "@emotion/react": "^11.0.0",
+    "@emotion/styled": "^11.0.0",
+    "@urql/exchange-graphcache": "^4.0.0",
+    "formik": "^2.2.6",
+    "framer-motion": "^2.9.4",
+    "graphql": "^15.5.0",
+    "isomorphic-unfetch": "^3.1.0",
+    "next": "latest",
+    "next-urql": "^3.0.0",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1",
+    "react-is": "^17.0.1",
+    "urql": "^2.0.1",
+    "wonka": "^4.0.15"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "@graphql-codegen/cli": "1.21.1",
+    "@graphql-codegen/typescript": "1.21.0",
+    "@graphql-codegen/typescript-operations": "1.17.14",
+    "@graphql-codegen/typescript-urql": "^2.0.3",
+    "@types/node": "^14.14.31",
+    "typescript": "^4.2.2"
+  }
+}
